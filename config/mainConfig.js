@@ -6,7 +6,7 @@
 
 /* Thanks to
  * Dani Techno. - FullStack Engineer (Creator / Developer)
- * daniapi.biz.id (API provider)
+ * daniapi.my.id / api.danitechno.com (API provider)
  * api.caliph.biz.id (API provider)
  * @danitech/scraper (Scraper provider)
  * @whiskeysockets/baileys (Library "Baileys" provider)
@@ -41,11 +41,11 @@ module.exports = {
   auto_read_messages: true,
   auto_typing: true,
   auto_recording: false,
-  mongodb_uri: 'Your_MongoDb_URI', // Register here: https://mongodb.com/#sign-up
+  mongodb_uri: 'mongodb+srv://aimicrobot:1ESL8ZjsBaq09MVg@cluster01.aaoruj0.mongodb.net/?retryWrites=true&w=majority', // Register here: https://mongodb.com/#sign-up
   api: {
     dani: {
       api_url: 'https://daniapi.biz.id',
-      api_key: 'Your_API_key' // Register here: https://daniapi.biz.id/#sign-up
+      api_key: 'sk-3olwjdafbdlj5s0uw' // Register here: https://daniapi.my.id/#sign-up
     },
     caliph: {
       api_url: 'https://api.caliph.biz.id',
@@ -53,21 +53,21 @@ module.exports = {
     }
   },
   bot: {
-    name: 'Your Bot Name',
+    name: 'MitraBot',
     profile_status: 'Bot aktif 24/7'
   },
   owner: {
-    name: ["Your Name"],
-    number: ["628xxx"]
+    name: ["MyMinf"],
+    number: ["6285788532344"]
   },
   daily_limit: {
-    free: 10,
+    free: 30,
     premium: Infinity
   },
   watermark: {
     sticker: {
       package_name: 'Created by',
-      author_name: 'Your Name'
+      author_name: 'dani'
     }
   },
   react: {
@@ -80,14 +80,14 @@ module.exports = {
     timzone: 'Asia/Jakarta'
   },
   message: {
-    plans_and_pricing: '*Plans & Pricing*\n\n*Plan:*\n- Free (benefit): Limit 10/day\n- Premium (benefit): Limit infinity/unlimited\n\n*Price:*\n- Premium 7 hari: 3rb\n- Premium 14 hari: 5rb\n- Premium 1 bulan 10rb\n- Premium 2 bulan: 20rb\n- Premium 1 tahun: 120rb\n\n*Contact owner:* 6289512545999',
-    not_registered: 'Anda belum terdaftar sebagai pengguna. Untuk mendaftar, ketik: *.register*.',
-    especially_premium: 'Anda harus memiliki akun Premium untuk mengakses fitur ini. Ketik: *.upgrade* untuk mengupgrade akun.',
-    especially_owners: 'Anda tidak diizinkan mengakses fitur ini. Fitur ini hanya bisa diakses oleh owner bot.',
-    daily_limit: 'Maaf, limit harian Anda telah habis. Limit akan direset setiap pukul jam 12 malam WIB.\nKetik: *.upgrade* untuk mengupgrade akun, dan dapatkan benefit limit tanpa batas.'
+    plans_and_pricing: '*Plans & Pricing*\n\n*Plan:*\n- Free (benefit): Limit 25/day\n- Premium (benefit): Limit infinity/unlimited\n\n*Price:*\n- Premium 7 hari: 3rb\n- Premium 14 hari: 5rb\n- Premium 1 bulan 10rb\n- Premium 2 bulan: 20rb\n- Premium 1 tahun: 120rb\n\n*Contact owner:* 6289512545999',
+    not_registered: 'Anda belum terdaftar sebagai pengguna. Untuk mendaftar, ketik: .register [yourname].',
+    especially_premium: 'Anda harus memiliki akun Premium untuk mengakses fitur ini.',
+    especially_owners: 'Anda tidak diizinkan mengakses fitur ini.',
+    daily_limit: 'Maaf, limit harian Anda telah habis. Limit akan direset setiap pukul jam 12 malam WIB.'
   },
   date: {
     country: 'id-ID',
     time_zone: 'Asia/Jakarta'
   }
-};
+}
